@@ -9,7 +9,7 @@ public class Main {
         vertex0.addAdjacency(vertex2);
         vertex1.addAdjacency(vertex2);
 
-        BFS bfs = new BFS();
+        BreathFirstSearch bfs = new BreathFirstSearch();
         System.out.println(bfs.findPath(vertex0, vertex2));
 
     }

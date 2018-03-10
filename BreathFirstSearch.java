@@ -3,7 +3,7 @@ import java.util.Collections;
 import java.util.LinkedList;
 import java.util.Queue;
 
-public class BFS {
+public class BreathFirstSearch {
 
     public String findPath(Vertex start, Vertex target) {
         Queue<Vertex> queue = new LinkedList<>();
